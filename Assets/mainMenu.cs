@@ -31,5 +31,10 @@ public class mainMenu : MonoBehaviour
 
     }
 
+    public void close()
+    {
+        Application.Quit();
+    }
+
 
 }

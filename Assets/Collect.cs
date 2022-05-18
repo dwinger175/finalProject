@@ -7,6 +7,7 @@ public class Collect : MonoBehaviour
 {
     public Text scoretext;
     private int toCollect = 3;
+    public AudioSource pickup;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class Collect : MonoBehaviour
     {
         toCollect--;
         scoretext.text = "Items to Collect : " + toCollect;
+        pickup.Play();
 
         if (toCollect == 0)
         {
