@@ -14,6 +14,22 @@ public class mainMenu : MonoBehaviour
 
     }
 
+    public void Update()
+    {
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        
+        
+    }
+
+    public void Restart()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+       
+
+    }
 
 
 }

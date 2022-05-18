@@ -464,7 +464,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiObject: {fileID: 377975150}
-  offsetTime: 8
 --- !u!65 &165380755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1730,7 +1729,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiObject: {fileID: 377975150}
-  offsetTime: 4
 --- !u!65 &640716794
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3494,7 +3492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1327262677
 Light:
   m_ObjectHideFlags: 0
@@ -4937,7 +4935,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiObject: {fileID: 377975150}
-  offsetTime: 4
 --- !u!65 &2015662343
 BoxCollider:
   m_ObjectHideFlags: 0

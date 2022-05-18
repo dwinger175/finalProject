@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Collect : MonoBehaviour
 {
     public Text scoretext;
@@ -25,5 +26,10 @@ public class Collect : MonoBehaviour
     {
         toCollect--;
         scoretext.text = "Items to Collect : " + toCollect;
+
+        if (toCollect == 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }
